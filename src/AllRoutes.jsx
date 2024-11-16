@@ -8,6 +8,7 @@ import Questions from "./pages/Questions/Questions";
 import UserProfile from "./pages/UserProfile/UserProfile";
 import AskQuestion from "./pages/AskQuestion/AskQuestion";
 import DisplayQuestion from "./pages/Questions/DisplayQuestion";
+import About from "./components/About/About.jsx"
 
 
 const AllRoutes = () => {
@@ -23,7 +24,7 @@ const AllRoutes = () => {
       <Route path="/Questions/:id" element={<DisplayQuestion />} />
 
       
-      /*<Route path="/About" element={<About />} />*/
+      <Route path="/About" element={<About />} />
    
     </Routes>
   );
