@@ -23,7 +23,7 @@ const AllRoutes = () => {
       <Route path="/Questions/:id" element={<DisplayQuestion />} />
 
       
-      <Route path="/About" element={<About />} />
+      /*<Route path="/About" element={<About />} />*/
    
     </Routes>
   );
